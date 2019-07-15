@@ -1,0 +1,1 @@
+This is my portfolio detailing my skills, experience and projects.  It also provides links to my LinkedIn and GitHub accounts.
