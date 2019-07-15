@@ -372,7 +372,7 @@
   font-size: 1.5em;
 }
 
-@media only screen and (min-width: 400px){
+@media only screen and (min-width: 480px){
   form { width: 400px;}
 }
 form div + div {
@@ -409,7 +409,6 @@ textarea {
 }
 
 .send-button {
-  /* To position the buttons to the same position of the text fields */
   /* width: 400px; */
   margin: auto;
   margin-top: 30px;
@@ -417,9 +416,7 @@ textarea {
 }
 
 .send-button button {
-  /* This extra margin represent roughly the same space as the space
-     between the labels and their text fields */
-  /* margin-left: .5em; */
+
   width: 80px;
   height: 40px;
   border-radius: 30px;
