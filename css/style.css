@@ -245,7 +245,7 @@
    border-radius: 50%;
    border: 2px solid black;
  }
- @media only screen and (max-width: 600px){
+ @media only screen and (max-width: 768px){
   .about{ 
     flex-wrap: wrap;
     width: 100%;
@@ -372,6 +372,9 @@
   font-size: 1.5em;
 }
 
+@media only screen and (max-width: 400px){
+  form {width: initial;}
+}
 form div + div {
   margin-top: 1em;
 }
@@ -410,7 +413,7 @@ textarea {
 
 .send-button {
   /* To position the buttons to the same position of the text fields */
-  width: 400px;
+  /* width: 400px; */
   margin: auto;
   margin-top: 30px;
   text-align: center;
