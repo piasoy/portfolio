@@ -22,7 +22,7 @@
 
   h3{
       font-size: 1.5em;
-      margin-left: 5%;
+      /* margin-left: 5%; */
       /* text-align: center; */
   }
 
@@ -152,15 +152,13 @@
       border-radius: 50%;
       font-size: 1.2em;     
       line-height: 150px;
-      text-align: center;    
+      text-align: center;  
+      margin: 20px;  
 
   }
   .none{
       display: none;
   }
-
-
- 
 
     .skills-list p:nth-child(1){
         background-color: #FCD7F5;
@@ -182,22 +180,35 @@
         background-color:#F2CFC7;
     }
 
-    .skills-list p:nth-child(6){
+    .second p:nth-child(1){
         background-color: #FCD7F5;
     }
-
-    .skills-list p:nth-child(7){
+    .skills-list p:nth-child(6){
         background-color: #C3D9D5;
     }
-
+    .skills-list p:nth-child(7){
+      background-color: #D1D1D1;
+    }
+    .skills-list p:nth-child(8){
+      background-color: #F2CFC7;
+    }
+    .skills-list p:nth-child(09){
+      background-color: #FCD7F5;
+    }
+    .skills-list p:nth-child(10){
+      background-color: #C3D9D5;
+    }
+    .skills-list p:nth-child(11){
+      background-color: #FFEAD6;
+    }
     .learning-list p:nth-child(1){
-        border: 3px solid  #D1D1D1;
+      border: 3px solid  #D1D1D1;
     }
     .learning-list p:nth-child(2){
-        border: 3px solid  #F2CFC7;
+      border: 3px solid  #F2CFC7;
     }
     .learning-list p:nth-child(3){
-        border: 3px solid  #C3D9D5;
+      border: 3px solid  #C3D9D5;
     }
     .learning-list p:nth-child(4){
         border: 3px solid  #FCD7F5;
@@ -455,8 +466,8 @@ textarea {
   }
 
   .text-focus-in {
--webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) 2s both;
-        animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) 2s both;
+-webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) 1s both;
+        animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) 1s both;
   }
 
   .roll-in-left {
