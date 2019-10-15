@@ -235,12 +235,11 @@
 }
 
  .about{
-    display: flex;
-    width: 60%;
+    /* display: flex;
+    width: 60%; */
     margin: auto;
 
  }
-
 
  .about p{
    font-size: 1.5em;
@@ -248,11 +247,14 @@
    margin-right: 30px;
  }
 
+ .profile-photo {
+   text-align: center;
+ }
  .about img{
    width: 250px;
-   margin-top: 30px;
+   /* margin-top: 30px;
    margin-left: 30px;
-   margin-right: 30px;
+   margin-right: 30px; */
    border-radius: 50%;
    border: 2px solid black;
  }
