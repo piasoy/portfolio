@@ -351,6 +351,9 @@
   /* background-color: #cccccc; */
 }
 
+.long {
+  height: auto !important;
+}
 
  /**
  * ----------------------------------------
